@@ -1,0 +1,11 @@
+# Experiment output (recorded runs, logs and plots)
+data/
+
+# Python
+__pycache__/
+*.pyc
+
+# colcon (in case the workspace root is ever used as the repository)
+build/
+install/
+log/
