@@ -204,6 +204,10 @@ Example:
 
 The list of robots, shapes and laps is in the `ROBOTS` array at the top of the script.
 
+![1792366689528](image/README/1792366689528.png)
+
+![1792366832290](image/README/1792366832290.png)
+
 ### What happens in each run
 
 Before starting, the script checks that `/gazebo/model_states` and each robot's `cmd_vel` exist;
