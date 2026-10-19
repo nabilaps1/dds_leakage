@@ -1,0 +1,14 @@
+{
+  "poses": "/data/gt.csv",
+  "out": "/output",
+  "device": "cpu",
+  "epochs": 50,
+  "batch_size": 128,
+  "window": 50,
+  "horizon": 10,
+  "dt": 0.02,
+  "v_max": 1.0,
+  "w_max": 2.0,
+  "theta_weight": 2.0,
+  "seed": 0
+}
