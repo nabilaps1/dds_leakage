@@ -206,7 +206,7 @@ The list of robots, shapes and laps is in the `ROBOTS` array at the top of the s
 
 ![1792366689528](image/README/1792366689528.png)
 
-![1792366832290](image/README/1792366832290.png)
+![1792366832290](image/README/1792366832290.png)![1792368600614](image/README/1792368600614.png)
 
 ### What happens in each run
 
