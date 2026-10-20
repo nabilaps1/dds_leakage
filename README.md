@@ -48,7 +48,7 @@ the dynamics.
 The world publishes `/gazebo/model_states` (the true pose of every model) at 50 Hz, and
 `/clock` is published at 200 Hz.
 
-### Controller (`controller`)
+### Controller 
 
 Publishes on `cmd_vel` (relative to its namespace) a **deterministic** plan of `Twist` commands
 at **10 Hz in simulation time**. The plan is built before it starts:
@@ -74,7 +74,7 @@ Parameters: `path` (required), `laps` (default `1`), `start_delay` (default `2.0
 and how many of them are moving commands; `run_experiment.sh` uses this to check what was
 observed.
 
-### Observer (`observer`)
+### Observer
 
 A regular DDS participant. Every `discovery_period` (0.2 s) it queries the ROS graph and
 subscribes to every known topic that shows up with the expected type. The topics are listed in
@@ -95,7 +95,7 @@ itself provides. Each topic becomes one file in the robot's folder:
 `/tb3_1/cmd_vel` → `<output_dir>/tb3_1/observed_data.csv`. The parameter `output_dir` is
 required.
 
-### Ground truth recorder (`ground_truth_recorder`)
+### Ground truth recorder
 
 Subscribes to `/gazebo/model_states` and records the pose (x, y, yaw) of the models listed in
 `model_names` to `<output_dir>/<model>/ground_truth.csv`, at ~50 Hz. The parameter `output_dir`
